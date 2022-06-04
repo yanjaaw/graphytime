@@ -21,10 +21,10 @@ const { chains, provider } = configureChains(
     alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }),
     publicProvider(),
     jsonRpcProvider({
-        rpc: chain => ({
-          http: `https://${chain.id}.example.com`,
-        }),
+      rpc: chain => ({
+        http: `https://${chain.id}.example.com`,
       }),
+    }),
   ]
 );
 
@@ -44,13 +44,13 @@ function App() {
       <header className="App-header">
         <img src={logo} alt="logo" />
         <p>
-          What's in your friend's wallet?
+          Brand name
         </p>
         <WagmiConfig client={wagmiClient}>
-      <RainbowKitProvider chains={chains}>
-      <ConnectButton />
-      </RainbowKitProvider>
-    </WagmiConfig>
+          <RainbowKitProvider chains={chains}>
+            <ConnectButton />
+          </RainbowKitProvider>
+        </WagmiConfig>
       </header>
     </div>
   );

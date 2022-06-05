@@ -3,19 +3,19 @@ import { useNavigate, createSearchParams } from "react-router-dom";
 import Layout from "../components/Layout";
 
 export default function Home() {
-  const [inputVal, setInputVal] = useState("");
+  // const [inputVal, setInputVal] = useState("");
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const params = { address: inputVal };
-    navigate({
-      pathname: "/contract",
-      search: `?${createSearchParams(params)}`,
-      replace: true,
-    });
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const params = { address: inputVal };
+  //   navigate({
+  //     pathname: "/contract",
+  //     search: `?${createSearchParams(params)}`,
+  //     replace: true,
+  //   });
+  // };
 
   return (
     <Layout>

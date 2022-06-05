@@ -1,4 +1,5 @@
 import topCharts from "../../data/topCharts.json";
+import { FaEthereum } from "react-icons/fa";
 
 export default function TopChart({ categoryName, formattedCategoryName }) {
   const collections = topCharts[categoryName];
@@ -50,31 +51,50 @@ export default function TopChart({ categoryName, formattedCategoryName }) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                {collections.map((collection, index) => (
-                  <tr key={collection.slug}>
-                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
-                      {index + 1}
-                    </td>
-                    <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
-                      {collection.name}
-                    </td>
-                    <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
-                      {collection.total_volume.toFixed(2)}
-                    </td>
-                    <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
-                      {collection.total_sales.toFixed(2)}
-                    </td>
-                    <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 md:pr-0">
-                      <a
-                        href={`https://opensea.io/collection/${collection.slug}`}
-                        className="text-indigo-600 hover:text-indigo-900"
-                      >
-                        View
-                        <span className="sr-only">, {collection.title}</span>
-                      </a>
-                    </td>
-                  </tr>
-                ))}
+                {collections.map((collection, index) => {
+                  const totalVolume = collection.total_volume.toLocaleString(
+                    "en-US",
+                    { maximumFractionDigits: 2 }
+                  );
+                  const totalSales = collection.total_sales.toLocaleString(
+                    "en-US",
+                    { maximumFractionDigits: 2 }
+                  );
+
+                  return (
+                    <tr key={collection.slug}>
+                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
+                        {index + 1}
+                      </td>
+                      <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
+                        {collection.name}
+                      </td>
+                      <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
+                        <div className="flex items-center">
+                          <FaEthereum className="w-4 h-4" />
+                          {totalVolume}
+                        </div>
+                      </td>
+                      <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
+                        <div className="flex items-center">
+                          <FaEthereum className="w-4 h-4" />
+                          {totalSales}
+                        </div>
+                      </td>
+                      <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 md:pr-0">
+                        <a
+                          href={`https://opensea.io/collection/${collection.slug}`}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-indigo-600 hover:text-indigo-900"
+                        >
+                          View
+                          <span className="sr-only">, {collection.name}</span>
+                        </a>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

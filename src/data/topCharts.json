@@ -13,16 +13,16 @@
       "total_sales": 832
     },
     {
-      "name": "XCOPY",
-      "slug": "xcopy",
-      "total_volume": 7125.6842651850375,
-      "total_sales": 1254
-    },
-    {
       "name": "Meridian by Matt DesLauriers",
       "slug": "meridian-by-matt-deslauriers",
       "total_volume": 17370.560259569298,
       "total_sales": 1450
+    },
+    {
+      "name": "XCOPY",
+      "slug": "xcopy",
+      "total_volume": 7125.6842651850375,
+      "total_sales": 1254
     },
     {
       "name": "Hackatao",
@@ -33,16 +33,22 @@
   ],
   "collectibles": [
     {
-      "name": "BEEPLE - THE 5000 DAYS COLLECTION",
-      "slug": "beeple-5000",
-      "total_volume": 2820.38395,
-      "total_sales": 50
-    },
-    {
       "name": "CryptoPunks",
       "slug": "cryptopunks",
       "total_volume": 911610.773743289,
       "total_sales": 20309
+    },
+    {
+      "name": "Bored Ape Yacht Club",
+      "slug": "boredapeyachtclub",
+      "total_volume": 590712.1000041546,
+      "total_sales": 26348
+    },
+    {
+      "name": "Mutant Ape Yacht Club",
+      "slug": "mutant-ape-yacht-club",
+      "total_volume": 408566.28521433857,
+      "total_sales": 32224
     },
     {
       "name": "Azuki",
@@ -55,12 +61,6 @@
       "slug": "doodles-official",
       "total_volume": 131762.22759834933,
       "total_sales": 22458
-    },
-    {
-      "name": "Bored Ape Yacht Club",
-      "slug": "boredapeyachtclub",
-      "total_volume": 590712.1000041546,
-      "total_sales": 26348
     }
   ],
   "music": [
@@ -71,10 +71,10 @@
       "total_sales": 15064
     },
     {
-      "name": "Grimes x Mac",
-      "slug": "grimes-x-mac",
-      "total_volume": 89.58921899999997,
-      "total_sales": 94
+      "name": "KINGS OF LEON x YELLOWHEART",
+      "slug": "kings-of-leon-yellowheart",
+      "total_volume": 969.8716584999594,
+      "total_sales": 11047
     },
     {
       "name": "Steve Aoki",
@@ -83,10 +83,10 @@
       "total_sales": 1146
     },
     {
-      "name": "KINGS OF LEON x YELLOWHEART",
-      "slug": "kings-of-leon-yellowheart",
-      "total_volume": 969.8716584999594,
-      "total_sales": 11047
+      "name": "Grimes x Mac",
+      "slug": "grimes-x-mac",
+      "total_volume": 89.58921899999997,
+      "total_sales": 94
     },
     {
       "name": "Eminem",
@@ -129,24 +129,6 @@
   ],
   "sports": [
     {
-      "name": "F1® Delta Time",
-      "slug": "f1-delta-time",
-      "total_volume": 4209.947475693833,
-      "total_sales": 14842.028
-    },
-    {
-      "name": "Golden State Warriors Legacy Collection",
-      "slug": "golden-state-warriors-legacy-collection",
-      "total_volume": 742.3830711831947,
-      "total_sales": 404
-    },
-    {
-      "name": "Rob Gronkowski Championship Series NFTs",
-      "slug": "rob-gronkowski-championship-series-nfts",
-      "total_volume": 1206.4721620525474,
-      "total_sales": 444
-    },
-    {
       "name": "Sorare",
       "slug": "sorare",
       "total_volume": 50265.89563444779,
@@ -157,6 +139,24 @@
       "slug": "zed-run-legacy",
       "total_volume": 46717.69717040743,
       "total_sales": 251971
+    },
+    {
+      "name": "F1® Delta Time",
+      "slug": "f1-delta-time",
+      "total_volume": 4209.947475693833,
+      "total_sales": 14842.028
+    },
+    {
+      "name": "Rob Gronkowski Championship Series NFTs",
+      "slug": "rob-gronkowski-championship-series-nfts",
+      "total_volume": 1206.4721620525474,
+      "total_sales": 444
+    },
+    {
+      "name": "Golden State Warriors Legacy Collection",
+      "slug": "golden-state-warriors-legacy-collection",
+      "total_volume": 742.3830711831947,
+      "total_sales": 404
     }
   ],
   "trading-cards": [
@@ -165,6 +165,12 @@
       "slug": "curiocardswrapper",
       "total_volume": 37603.17295906037,
       "total_sales": 29622
+    },
+    {
+      "name": "Emblem Vault",
+      "slug": "emblem-vault",
+      "total_volume": 33299.48761940839,
+      "total_sales": 18951
     },
     {
       "name": "Wrapped Strikers",
@@ -177,12 +183,6 @@
       "slug": "candydigital",
       "total_volume": 462.7185307012725,
       "total_sales": 5826
-    },
-    {
-      "name": "Emblem Vault",
-      "slug": "emblem-vault",
-      "total_volume": 33299.48761940839,
-      "total_sales": 18951
     },
     {
       "name": "Spells of Genesis",
@@ -205,12 +205,6 @@
       "total_sales": 8529
     },
     {
-      "name": "NiftyVille",
-      "slug": "niftyville",
-      "total_volume": 196.83989720929665,
-      "total_sales": 1193
-    },
-    {
       "name": "The Meta Key",
       "slug": "the-meta-key",
       "total_volume": 9986.453955352308,
@@ -221,6 +215,12 @@
       "slug": "eternalroyals",
       "total_volume": 568.0887661688927,
       "total_sales": 4535
+    },
+    {
+      "name": "NiftyVille",
+      "slug": "niftyville",
+      "total_volume": 196.83989720929665,
+      "total_sales": 1193
     }
   ],
   "virtual-worlds": [
@@ -229,18 +229,6 @@
       "slug": "decentraland",
       "total_volume": 169668.5983986666,
       "total_sales": 19997
-    },
-    {
-      "name": "Somnium Space VR",
-      "slug": "somnium-space",
-      "total_volume": 26479.24419659433,
-      "total_sales": 4636
-    },
-    {
-      "name": "Voxels (formerly Cryptovoxels)",
-      "slug": "cryptovoxels",
-      "total_volume": 25029.83927102112,
-      "total_sales": 11844
     },
     {
       "name": "The Sandbox",
@@ -253,6 +241,18 @@
       "slug": "nft-worlds",
       "total_volume": 48812.46222582177,
       "total_sales": 19410
+    },
+    {
+      "name": "Somnium Space VR",
+      "slug": "somnium-space",
+      "total_volume": 26479.24419659433,
+      "total_sales": 4636
+    },
+    {
+      "name": "Voxels (formerly Cryptovoxels)",
+      "slug": "cryptovoxels",
+      "total_volume": 25029.83927102112,
+      "total_sales": 11844
     }
   ]
 }

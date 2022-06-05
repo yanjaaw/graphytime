@@ -1,5 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 import Layout from "../components/Layout";
+import InfluencerChart from "../components/tables/InfluencerChart";
 import TopChart from "../components/tables/TopChart";
 import WhaleChart from "../components/tables/WhaleChart";
 
@@ -21,193 +22,40 @@ export default function Category() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <h1 className="text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">
-          Analysis on {formattedCategoryName} NFT Collections
+        <h1 className="text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl mb-16">
+          {formattedCategoryName} NFT Movers
         </h1>
         {/* <p className="text-base text-gray-700">
-          Copy about analyzing NFTs
+          Wallets who 
         </p> */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-16">
-          <WhaleChart title={`${formattedCategoryName} NFT`} whales={people} />
-          <div className="mb-32">
-            <h2 className="text-xl font-semibold text-gray-900">
-              {formattedCategoryName} NFT Influencers
-            </h2>
-            <p className="mt-2 text-sm text-gray-700">
-              Copy defining influencers
-            </p>
-            <div className="mt-8 flex flex-col">
-              <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                  <table className="min-w-full divide-y divide-gray-300">
-                    <thead>
-                      <tr>
-                        <th
-                          scope="col"
-                          className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6 md:pl-0"
-                        >
-                          Rank
-                        </th>
-                        <th
-                          scope="col"
-                          className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
-                        >
-                          Address
-                        </th>
-
-                        <th
-                          scope="col"
-                          className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
-                        >
-                          No. NFTs
-                        </th>
-                        <th
-                          scope="col"
-                          className="relative py-3.5 pl-3 pr-4 sm:pr-6 md:pr-0"
-                        >
-                          <span className="sr-only">View</span>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      {people.map((person, index) => (
-                        <tr key={person.email}>
-                          <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
-                            {index + 1}
-                          </td>
-                          <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
-                            {person.title}
-                          </td>
-                          <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
-                            {person.role}
-                          </td>
-                          <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 md:pr-0">
-                            <a
-                              href="#"
-                              className="text-indigo-600 hover:text-indigo-900"
-                            >
-                              View
-                              <span className="sr-only">, {person.name}</span>
-                            </a>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div className="mb-32">
-            <h2 className="text-xl font-semibold text-gray-900">
-              Trending {formattedCategoryName} NFT Collections
-            </h2>
-            <p className="mt-2 text-sm text-gray-700">
-              Copy about what trending means in this context
-            </p>
-            <div className="mt-8 flex flex-col">
-              <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-                  <table className="min-w-full divide-y divide-gray-300">
-                    <thead>
-                      <tr>
-                        <th
-                          scope="col"
-                          className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6 md:pl-0"
-                        >
-                          Rank
-                        </th>
-                        <th
-                          scope="col"
-                          className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
-                        >
-                          Collection
-                        </th>
-                        <th
-                          scope="col"
-                          className="py-3.5 px-3 text-left text-sm font-semibold text-gray-900"
-                        >
-                          No. Transfers
-                        </th>
-                        <th
-                          scope="col"
-                          className="relative py-3.5 pl-3 pr-4 sm:pr-6 md:pr-0"
-                        >
-                          <span className="sr-only">View</span>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      {people.map((person, index) => (
-                        <tr key={person.email}>
-                          <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
-                            {index + 1}
-                          </td>
-                          <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
-                            {person.title}
-                          </td>
-                          <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
-                            {person.role}
-                          </td>
-                          <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 md:pr-0">
-                            <a
-                              href="#"
-                              className="text-indigo-600 hover:text-indigo-900"
-                            >
-                              View
-                              <span className="sr-only">, {person.name}</span>
-                            </a>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-          <TopChart
-            categoryName={categoryName}
-            formattedCategoryName={formattedCategoryName}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <WhaleChart name={formattedCategoryName} whales={whales} />
+          <InfluencerChart
+            name={formattedCategoryName}
+            influencers={influencers}
           />
         </div>
+        {/* <TopChart
+          categoryName={categoryName}
+          formattedCategoryName={formattedCategoryName}
+        /> */}
       </div>
     </Layout>
   );
 }
 
-const people = [
+const whales = [
   {
-    name: "Lindsay Walton",
-    title: "Front-end Developer",
-    email: "lindsay.walton@example.com",
-    role: "Member",
+    address: "0x49Ff4750f424c1acCB8fbda8d95A8A2AAf0e8274",
+    total_nfts: 1,
+    total_transfers: 1,
   },
+];
+
+const influencers = [
   {
-    name: "Lindsay Walton",
-    title: "Front-end Developer",
-    email: "lindsay.walton@example.com",
-    role: "Member",
-  },
-  {
-    name: "Lindsay Walton",
-    title:
-      "Front-end Developer Copy defining influencers Front-end Developer Copy defining influencers",
-    email: "lindsay.walton@example.com",
-    role: "Member",
-  },
-  {
-    name: "Lindsay Walton",
-    title: "Front-end Developer",
-    email: "lindsay.walton@example.com",
-    role: "Member",
-  },
-  {
-    name: "Lindsay Walton",
-    title: "Front-end Developer",
-    email: "lindsay.walton@example.com",
-    role: "Member",
+    address: "0x49Ff4750f424c1acCB8fbda8d95A8A2AAf0e8274",
+    total_nfts: 1,
+    total_transfers: 1,
   },
 ];

@@ -73,3 +73,85 @@ export default function InfluencerChart({ name, influencers }) {
     </div>
   );
 }
+
+function getInfluencersQuery(category) {
+  let query;
+
+  switch (category) {
+    case "art":
+      query = `query {
+        accounts(first: 10, orderBy: totalArtTransactions, orderDirection: desc) {
+          id
+          totalArtTransactions
+          totalArtTokens
+        }
+      }`;
+      break;
+    case "collectibles":
+      query = `query {
+        accounts(first: 10, orderBy: totalCollectiblesTransactions, orderDirection: desc) {
+          id
+          totalCollectiblesTransactions
+          totalCollectiblesTokens
+        }
+      }`;
+      break;
+    case "music":
+      query = `query {
+        accounts(first: 10, orderBy: totalMusicTransactions, orderDirection: desc) {
+          id
+          totalMusicTransactions
+          totalMusicTokens
+        }
+      }`;
+      break;
+    case "photography":
+      query = `query {
+        accounts(first: 10, orderBy: totalPhotographyTransactions, orderDirection: desc) {
+          id
+          totalPhotographyTransactions
+          totalPhotographyTokens
+        }
+      }`;
+      break;
+    case "sports":
+      query = `query {
+        accounts(first: 10, orderBy: totalSportsTransactions, orderDirection: desc) {
+          id
+          totalSportsTransactions
+          totalSportsTokens
+        }
+      }`;
+      break;
+    case "trading-cards":
+      query = `query {
+        accounts(first: 10, orderBy: totalTradingCardsTransactions, orderDirection: desc) {
+          id
+          totalTradingCardsTransactions
+          totalTradingCardsTokens
+        }
+      }`;
+      break;
+    case "utility":
+      query = `query {
+        accounts(first: 10, orderBy: totalUtilityTransactions, orderDirection: desc) {
+          id
+          totalUtilityTransactions
+          totalUtilityTokens
+        }
+      }`;
+      break;
+    case "virtual-worlds":
+      query = `query {
+        accounts(first: 10, orderBy: totalVirtualWorldsTransactions, orderDirection: desc) {
+          id
+          totalVirtualWorldsTransactions
+          totalVirtualWorldsTokens
+        }
+      }`;
+      break;
+    default:
+      break;
+  }
+  return query;
+}

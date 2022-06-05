@@ -33,7 +33,7 @@ export default function Home() {
             fugiat aliqua.
           </p>
         </div>
-        <div className="mt-8 md:mt-16">
+        {/* <div className="mt-8 md:mt-16">
           <form className="sm:flex" onSubmit={handleSubmit}>
             <label htmlFor="search" className="sr-only">
               Search by contract address
@@ -56,7 +56,7 @@ export default function Home() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <div className="mt-12 md:mt-24">
           <h2 className="text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl mb-8">
             Analyze popular NFT collections by category

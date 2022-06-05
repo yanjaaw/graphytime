@@ -59,10 +59,10 @@ export default function TopChart({ categoryName, formattedCategoryName }) {
                       {collection.name}
                     </td>
                     <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
-                      {collection.total_volume}
+                      {collection.total_volume.toFixed(2)}
                     </td>
                     <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
-                      {collection.total_sales}
+                      {collection.total_sales.toFixed(2)}
                     </td>
                     <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 md:pr-0">
                       <a

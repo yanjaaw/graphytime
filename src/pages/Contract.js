@@ -37,16 +37,56 @@ export default function Contract() {
 
 const whales = [
   {
-    address: "0x49Ff4750f424c1acCB8fbda8d95A8A2AAf0e8274",
-    total_nfts: 1,
-    total_transfers: 1,
+    address: "0xcFA6A349a1e9c5f3bF109D5F00232F3855004567",
+    total_nfts: 72,
+    total_transfers: 288,
+  },
+  {
+    address: "0xeeF537dE2B80285A964A4ce64c2CA04A4746e9eF",
+    total_nfts: 64,
+    total_transfers: 386,
+  },
+  {
+    address: "0xa8D3a27D8D11002E28a77f1859834437e3D4df35",
+    total_nfts: 59,
+    total_transfers: 182,
+  },
+  {
+    address: "0x17eF2B6Ff281dbb79847c9CBb2Ce62572Abb24C8",
+    total_nfts: 44,
+    total_transfers: 272,
+  },
+  {
+    address: "0xa3F398c9fdBa9804CC290Aa0dE9A77B06d51242e",
+    total_nfts: 40,
+    total_transfers: 196,
   },
 ];
 
 const influencers = [
   {
-    address: "0x49Ff4750f424c1acCB8fbda8d95A8A2AAf0e8274",
-    total_nfts: 1,
-    total_transfers: 1,
+    address: "0xDf9F9104AFEb481efA156ec8848372d37533B86A",
+    total_nfts: 54,
+    total_transfers: 464,
+  },
+  {
+    address: "0x8Be019c5f77A16fc8CA40093a8836F20C7968D3b",
+    total_nfts: 40,
+    total_transfers: 264,
+  },
+  {
+    address: "0xd2b961eb93e26d7f2561f292028807b764d19db0",
+    total_nfts: 69,
+    total_transfers: 256,
+  },
+  {
+    address: "0xFaDEDFACe6e126f2556d679521b4ceeA6C372Ae7",
+    total_nfts: 39,
+    total_transfers: 244,
+  },
+  {
+    address: "0x5cF8574C6A0Ee0CD2069fa8C687dCA5644637c01",
+    total_nfts: 42,
+    total_transfers: 182,
   },
 ];

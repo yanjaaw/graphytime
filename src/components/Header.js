@@ -8,9 +8,9 @@ export default function Header() {
         <div className="w-full py-6 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
             <MdOutlineTableChart className="w-10 h-10" />
-            <span className="font-medium">GraphyTime</span>
+            <span className="font-medium">Graphiqly</span>
           </a>
-          <div className="ml-10 space-x-4">{/* <ConnectButton /> */}</div>
+          <div className="ml-10 space-x-4"><ConnectButton /></div>
         </div>
       </nav>
     </header>

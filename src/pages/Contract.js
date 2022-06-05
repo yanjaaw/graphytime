@@ -71,7 +71,7 @@ export default function Category() {
                         <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
                           {index + 1}
                         </td>
-                        <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
+                        <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
                           {person.title}
                         </td>
                         <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
@@ -139,7 +139,7 @@ export default function Category() {
                         <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
                           {index + 1}
                         </td>
-                        <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
+                        <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
                           {person.title}
                         </td>
                         <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
@@ -205,7 +205,7 @@ export default function Category() {
                         <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 md:pl-0">
                           {index + 1}
                         </td>
-                        <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">
+                        <td className="truncate max-w-xs py-4 px-3 text-sm text-gray-500">
                           {person.title}
                         </td>
                         <td className="whitespace-nowrap py-4 px-3 text-sm text-gray-500">

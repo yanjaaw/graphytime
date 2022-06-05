@@ -1,0 +1,258 @@
+{
+  "art": [
+    {
+      "name": "BEEPLE - THE 5000 DAYS COLLECTION",
+      "slug": "beeple-5000",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "CryptoPunks",
+      "slug": "cryptopunks",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Azuki",
+      "slug": "azuki",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Doodles",
+      "slug": "doodles-official",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Bored Ape Yacht Club",
+      "slug": "boredapeyachtclub",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "collectibles": [
+    {
+      "name": "BEEPLE - THE 5000 DAYS COLLECTION",
+      "slug": "beeple-5000",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "CryptoPunks",
+      "slug": "cryptopunks",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Azuki",
+      "slug": "azuki",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Doodles",
+      "slug": "doodles-official",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Bored Ape Yacht Club",
+      "slug": "boredapeyachtclub",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "music": [
+    {
+      "name": "Grimes x Mac",
+      "slug": "grimes-x-mac",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Steve Aoki",
+      "slug": "steve-aoki",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "KINGS OF LEON x YELLOWHEART",
+      "slug": "kings-of-leon-yellowheart",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Eminem",
+      "slug": "shadycon-eminem",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "RAC - A3 S24",
+      "slug": "rac-a3s24",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "photography": [
+    {
+      "name": "Grimes x Mac",
+      "slug": "grimes-x-mac",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Steve Aoki",
+      "slug": "steve-aoki",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "KINGS OF LEON x YELLOWHEART",
+      "slug": "kings-of-leon-yellowheart",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Eminem",
+      "slug": "shadycon-eminem",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "RAC - A3 S24",
+      "slug": "rac-a3s24",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "sports": [
+    {
+      "name": "F1® Delta Time",
+      "slug": "f1-delta-time",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Golden State Warriors Legacy Collection",
+      "slug": "golden-state-warriors-legacy-collection",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Rob Gronkowski Championship Series NFTs",
+      "slug": "rob-gronkowski-championship-series-nfts",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Sorare",
+      "slug": "sorare",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "ZED RUN Legacy",
+      "slug": "zed-run-legacy",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "trading-cards": [
+    {
+      "name": "My Curio Cards",
+      "slug": "curiocardswrapper",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Wrapped Strikers",
+      "slug": "wrapped-strikers",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Candy Digital",
+      "slug": "candydigital",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Emblem Vault",
+      "slug": "emblem-vault",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Spells of Genesis",
+      "slug": "spells-of-genesis-cards",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "utility": [
+    {
+      "name": "WOF_Labs",
+      "slug": "WOF_Labs",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "RTFKT - MNLTH",
+      "slug": "rtfkt-mnlth",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "NiftyVille",
+      "slug": "niftyville",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "The Meta Key",
+      "slug": "the-meta-key",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Eternal Royals Official",
+      "slug": "eternalroyals",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ],
+  "virtual-worlds": [
+    {
+      "name": "Decentraland",
+      "slug": "decentraland",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Somnium Space VR",
+      "slug": "somnium-space",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "Voxels (formerly Cryptovoxels)",
+      "slug": "cryptovoxels",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "The Sandbox",
+      "slug": "sandbox",
+      "total_volume": 0,
+      "total_sales": 0
+    },
+    {
+      "name": "NFT Worlds",
+      "slug": "nft-worlds",
+      "total_volume": 0,
+      "total_sales": 0
+    }
+  ]
+}

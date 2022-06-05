@@ -28,7 +28,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            What's trending for whales, influencers, wallets - find out what the cool kids are doing. All categorized for ease-of-use.
+            What's trending for whales, influencers, wallets - find out what the cool kids are doing faster. Categorized, indexed and easy to navigate so you can focus on the fun parts of BUIDLing.
           </p>
         </div>
         {/* <div className="mt-8 md:mt-16">
